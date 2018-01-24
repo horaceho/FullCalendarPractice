@@ -2,7 +2,6 @@ class ResourcesController < ApplicationController
   before_action :set_resource, only: [:show, :edit, :update, :destroy]
 
   def index
-    Resource.create(title: "Default") unless Resource.exists?
     @resources = Resource.all
   end
 
