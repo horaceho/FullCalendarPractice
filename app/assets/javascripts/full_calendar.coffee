@@ -3,7 +3,7 @@ initialize_calendar = ->
     calendar = $(this)
     calendar.fullCalendar
       schedulerLicenseKey: 'CC-Attribution-NonCommercial-NoDerivatives'
-      defaultView: 'agendaDay'
+      defaultView: 'month'
       header:
         left: 'prev,next today'
         center: 'title'
